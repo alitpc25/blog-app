@@ -1,0 +1,18 @@
+<%- include('header'); -%>
+<div class = "page" >
+    <h1>Home</h1>
+    <p class="homeParag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus eligendi hic ullam, mollitia a ea quae. Fugiat explicabo ipsa fugit minus, voluptates magni at laudantium quae, id, debitis eius blanditiis!</p>
+    <% for (var i = 0; i < postTitles.length; i++) {%>
+        <div class="postBlock">
+        <form action="/posts" method="POST">
+            <button name="postNo" class="btn btn-light" onclick="location.href='/posts'" type="submit" value="<%= i %>">
+        </form>
+        <h1> <%= postTitles[i] %> </h1>
+        </button>
+        <p class="homeParag"> <%= posts[i] %> </p>
+        </div>
+    <% } %>
+</div>
+
+
+<%- include('footer'); -%>

@@ -1,0 +1,79 @@
+.navbar {
+    display: block;
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: 2px;
+    height: max-content;
+}
+
+.nav-link {
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    color: skyblue !important;
+    }
+
+.navbar-brand {
+    margin-left: 75px;
+}
+
+#navbarNav {
+    justify-content: right;
+    margin-right: 75px;
+}
+
+.page {
+    margin:3% 6% 6%;
+}
+
+#inputTitle {
+    width: 90%;
+    height: 30px;
+}
+
+textarea {
+    width: 90%;
+    height: 300px;
+    resize: none !important;
+}
+
+textarea::-webkit-scrollbar, ::-webkit-scrollbar {
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-track, ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(62, 240, 195, 0.3);
+    box-shadow: inset 0 0 6px rgba(62, 240, 195, 0.3);
+}
+
+textarea::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb {
+  background-color: rgb(43, 214, 157);
+  outline: 1px solid skyblue;
+}
+
+.btn {
+    color: white;
+    background-color:rgb(43, 214, 157);
+}
+
+.homeParag {
+    display: block;
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.postBlock {
+    display: block;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(43, 214, 157);
+    color: white;
+    text-align: center;
+}
